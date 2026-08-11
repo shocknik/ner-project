@@ -1,0 +1,103 @@
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Виртуальные окружения
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ─── PyTorch / ML ───────────────────────────────────────
+# Веса и чекпоинты моделей
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.safetensors
+!**/weights/.gitkeep
+
+# Логи обучения (TensorBoard, wandb и т.п.)
+runs/
+logs/
+wandb/
+lightning_logs/
+mlruns/
+tensorboard/
+
+# Датасеты и данные
+data/
+datasets/
+*.npz
+*.npy
+*.csv.bak
+*.parquet
+*.arrow
+
+# ─── Jupyter / IDE ──────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ─── Тесты и покрытие ───────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache/
+
+# ─── Утилиты ────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.orig
+core
+core.*
+site/
+
+# ─── Системные файлы ────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─── Docker ─────────────────────────────────────────────
+.dockerignore
